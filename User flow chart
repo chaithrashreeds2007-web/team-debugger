@@ -1,0 +1,39 @@
+
+
+                ┌───────────────────────────────┐
+                │        👨‍🎓 User (Student)      │
+                └──────────────┬────────────────┘
+                               │
+                               ▼
+                ┌───────────────────────────────┐
+                │        Frontend Layer         │
+                │  React.js + Tailwind + UI     │
+                │  - Dashboard                  │
+                │  - Upload Syllabus            │
+                │  - Quiz Interface             │
+                │  - Analytics View             │
+                └──────────────┬────────────────┘
+                               │ API Calls
+                               ▼
+                ┌───────────────────────────────┐
+                │        Backend Layer          │
+                │   Node.js + Express.js        │
+                │                               │
+                │  - Auth & User Management     │
+                │  - Syllabus Processing API    │
+                │  - Quiz Generation Logic      │
+                │  - Career Recommendation API  │
+                └──────────────┬────────────────┘
+                               │
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+        ▼                      ▼                      ▼
+┌───────────────┐    ┌─────────────────┐    ┌──────────────────┐
+│  Database     │    │   AI Engine     │    │ External APIs    │
+│ Firebase /    │    │ Google Gemini   │    │ (Optional)       │
+│ MongoDB       │    │                 │    │ YouTube / Courses│
+│               │    │ -Concept Explain│    │ Job APIs         │
+│ - User Data   │    │ -Quiz Gen       │    └──────────────────┘
+│ - Progress    │    │ -Analysis       │
+│ - Scores      │    │ -Recommendations│
+└───────────────┘    └─────────────────┘
